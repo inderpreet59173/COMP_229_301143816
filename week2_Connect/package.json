@@ -1,0 +1,17 @@
+{
+  "name": "week2_connect",
+  "version": "1.0.0",
+  "description": "First Connect",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "301143816",
+  "license": "ISC",
+  "dependencies": {
+    "connect": "^3.7.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,30 @@
+->for package.json (setting up node server on localhost):
+go to index.js
+go to terminal->new terminal, then type
+npm init
+provide description like first node demo
+provide author as 301143816
+
+
+
+to run the server, type in terminal
+node index.js
+go to browser, type localhost:3000
+
+to stop server (needed when we change something in code):
+press Ctrl+C
+then restart by typing
+node index.js
+
+we use nodemon (3rd party package) to prevent restarting the server again and again after every change.
+to install type in terminal
+npm install -g nodemon
+
+if it doesn't update the package, try 
+npm install
+
+nodemon didn't get added to package.json, might be an exception
+
+now type in terminal
+nodemon
+it will start server and then make any changes to index.js and save it and there is no need to restart the server.

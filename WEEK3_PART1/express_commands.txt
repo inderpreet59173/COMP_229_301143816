@@ -1,0 +1,54 @@
+create server first
+npm init
+
+install express by:
+npm install express --save
+
+
+in folder part 2
+
+open cmd
+cd folder path
+npm install -g express-generator
+
+to check commands
+express -h
+
+to add gitignore file
+express --git
+
+to add folder structure and files
+express -e
+
+to install express
+npam instal express --save
+
+start command is found in package.json (node ./bin/www)
+
+by default there will be var in app.js, they are not secure, use const or let.
+replace all var in app.js to let
+
+move www file from bin to root and rename it server.js
+
+in package.json, rename start from node ./bin/www to node ./server.js
+
+delete bin folder now.
+
+create folder Assets in public, for styling purpose. create in public, content folder.
+
+delete stylesheets folder, we'll be using bootstrap for styling.
+
+under content, add file app.css (just in case we want manual styling). under views, index.ejs update the stylesheet path now, href='/Content/app.css'
+
+in routes/index.js, change title to COMP 229
+
+in assets create folder images
+
+in public, rename javascript folder to Scripts and add file app.js
+
+
+
+for bootstrap open another terminal
+npm install bootstrap --save
+
+
